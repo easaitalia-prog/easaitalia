@@ -30,9 +30,9 @@ header nav a:hover {
 main {
   padding: 10px;
   background: white;
-  margin: 10px auto;
-  max-width: 10px;
-  border-radius: px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
   box-shadow: 0 0 0px rgba(0,0,0,0);
 }
 
