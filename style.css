@@ -10,8 +10,8 @@ body {
 
 /* Header e navigazione */
 header {
-  background: #004080;
-  color: white;
+  background: #FFFFFF;
+  color: black;
   padding: 1em;
   text-align: center;
 }
@@ -38,7 +38,7 @@ main {
 
 /* Footer */
 footer {
-  background: #222;
+  background: #FFFFFF;
   color: white;
   text-align: center;
   padding: 10px;
