@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatti - EASA Italia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contatti</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chi-siamo.html">Chi siamo</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Come contattarci</h2>
+      <p>Email: <a href="mailto:contatti@easaitalia.eu">contatti@easaitalia.eu</a></p>
+      <p>Oppure compila il form qui sotto (non funziona senza backend, ma puoi integrarlo in futuro):</p>
+
+      <form>
+        <label>Nome:<br><input type="text" name="nome"></label><br><br>
+        <label>Email:<br><input type="email" name="email"></label><br><br>
+        <label>Messaggio:<br><textarea name="messaggio"></textarea></label><br><br>
+        <button type="submit">Invia</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 EASA Italia</p>
+  </footer>
+</body>
+</html>
