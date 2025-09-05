@@ -28,10 +28,10 @@ header nav a:hover {
 
 /* Contenuto */
 main {
-  padding: 0px;
+  padding: 10px;
   background: white;
-  margin: 0px auto;
-  max-width: 0px;
+  margin: 10px auto;
+  max-width: 10px;
   border-radius: px;
   box-shadow: 0 0 0px rgba(0,0,0,0);
 }
