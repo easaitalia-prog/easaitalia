@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storia - EASA Italia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Storia</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chi-siamo.html">Chi siamo</a>
+      <a href="contatti.html">Contatti</a>
+      <a href="storia.html">Storia</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Prossimi eventi</h2>
+      <p>Inserisci qui le date, i workshop e le informazioni utili.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 EASA Italia</p>
+  </footer>
+</body>
+</html>
