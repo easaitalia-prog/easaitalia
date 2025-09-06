@@ -5,54 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EASA Italia</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Font principale per tutto il sito */
+    body {
+      font-family: Garamond, 'Times New Roman', serif;
+      font-weight: 400;
+      line-height: 1.6;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Titoli */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Garamond, 'Times New Roman', serif;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.5em;
+    }
+
+    /* Paragrafi */
+    p {
+      font-family: Garamond, 'Times New Roman', serif;
+      font-weight: 400;
+      margin-bottom: 1em;
+    }
+
+    /* Evidenziazione speciale per Terremosse */
+    .terremosse {
+      color: red;
+      font-family: 'Georgia', serif;
+    }
+
+    /* Layout base */
+    header, nav, main, footer {
+      padding: 1em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    nav a {
+      margin-right: 1em;
+      text-decoration: none;
+      color: #222;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>EASA Italia</h1>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="chi-siamo.html">Chi siamo</a>
-  <a href="storia.html">Storia</a>
-  <a href="partecipa.html">Partecipa</a>
-  <a href="contatti.html">Contatti</a>
-</nav>
-
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chi-siamo.html">Chi siamo</a>
+      <a href="storia.html">Storia</a>
+      <a href="partecipa.html">Partecipa</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
   </header>
 
   <main>
-<section>
-  <h2>Benvenuti in EASA Italia</h2>
-  <p>
-    EASA Italia è parte della rete europea EASA (European Architecture Students Assembly),
-    una rete di studenti di architettura e giovani architetti provenienti da tutta Europa.
-  </p>
-  <p>
-    Per ulteriori informazioni sul network europeo e sulle attività internazionali,
-    visita il sito <a href="https://www.easanetwork.org/" target="_blank" rel="noopener noreferrer">easanetwork.org</a>.
-  </p>
-</section>
-
-      <section id="progetti">
-    <h2>Progetti in corso</h2>
-            <p>EASA Italia è registrata come APS (Associazione di Promozione Sociale) e nel 2023 ha organizzato a Borca di Cadore l'evento INCM Riflessi.  
-    </p>
-    <article>
-<h2><span class="terremosse">Terremosse</span></h2>
-<p>
-  <strong>Terremosse</strong> è il prossimo <em>SESAM (Small European Students of Architecture Meeting)</em>
-  organizzato da EASA Italia. L’evento si terrà ad <strong>Amatrice</strong> dal
-  <strong>3 al 12 luglio 2026</strong>.
-</p>
-
+    <section>
+      <h2>Benvenuti in EASA Italia</h2>
       <p>
-        Come ogni SESAM, sarà un’occasione di incontro, collaborazione e sperimentazione tra studenti
-        di architettura provenienti da tutta Europa, con workshop, attività collettive e momenti di scambio culturale.
+        EASA Italia è parte della rete europea EASA (European Architecture Students Assembly),
+        una rete di studenti di architettura e giovani architetti provenienti da tutta Europa.
       </p>
       <p>
-        Maggiori informazioni su come partecipare verranno pubblicate nei prossimi mesi.
+        Per ulteriori informazioni sul network europeo e sulle attività internazionali,
+        visita il sito <a href="https://www.easanetwork.org/" target="_blank" rel="noopener noreferrer">easanetwork.org</a>.
       </p>
-    </article>
-  </section>
+    </section>
+
+    <section id="progetti">
+      <h2>Progetti in corso</h2>
+      <p>
+        EASA Italia è registrata come APS (Associazione di Promozione Sociale) e nel 2023 ha organizzato a Borca di Cadore l'evento INCM Riflessi.  
+      </p>
+      <article>
+        <h3><span class="terremosse">Terremosse</span> — SESAM 2026</h3>
+        <p>
+          <strong><span class="terremosse">Terremosse</span></strong> è il prossimo 
+          <em>SESAM (Small European Students of Architecture Meeting)</em> organizzato da EASA Italia.
+          L’evento si terrà ad <strong>Amatrice</strong> dal <strong>3 al 12 luglio 2026</strong>.
+        </p>
+        <p>
+          Come ogni SESAM, sarà un’occasione di incontro, collaborazione e sperimentazione tra studenti
+          di architettura provenienti da tutta Europa, con workshop, attività collettive e momenti di scambio culturale.
+        </p>
+        <p>
+          Maggiori informazioni su come partecipare verranno pubblicate nei prossimi mesi.
+        </p>
+      </article>
+    </section>
   </main>
 
   <footer>
