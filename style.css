@@ -43,3 +43,8 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+.terremosse {
+  color: red; /* Colore rosso */
+  font-family: 'Georgia', serif; /* Font diverso, puoi scegliere quello che vuoi */
+}
