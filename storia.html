@@ -5,6 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Storia - EASA Italia</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Tabelle principali */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+    }
+
+    table th, table td {
+      border: 1px solid #ccc;       
+      padding: 0.5em 1em;           
+      text-align: left;              
+      vertical-align: middle;        
+    }
+
+    table thead {
+      background-color: #f2f2f2;    
+      font-weight: bold;
+    }
+
+    table tbody tr:nth-child(even) {
+      background-color: #fafafa;    
+    }
+
+    table tbody tr:hover {
+      background-color: #e6f7ff;    
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -51,7 +79,7 @@
         <tbody>
           <tr><td>2024</td><td>Benidorm, Spain</td><td><em>Shanzhai</em></td></tr>
           <tr><td>2023</td><td>Sheffield, England, UK</td><td><em>Commons</em></td></tr>
-          <tr><td>2022</td><td>Călărași, România</td><td><em>1:1</em></td></tr>
+          <tr><td>2022</td><td>Călărași, Romania</td><td><em>1:1</em></td></tr>
           <tr><td>2021</td><td>Kragujevac, Serbia</td><td><em>Reality</em></td></tr>
           <tr><td>2020</td><td>Valga, Estonia</td><td><em>Apathy</em></td></tr>
           <tr><td>2019</td><td>Villars-sur-Ollon, Switzerland</td><td><em>Tourist</em></td></tr>
@@ -97,15 +125,12 @@
       </table>
     </section>
 
+    <!-- Inserisco Edizioni INCM -->
     <section id="edizioni-incm">
       <h2>Edizioni INCM</h2>
       <table>
         <thead>
-          <tr>
-            <th>Anno</th>
-            <th>Luogo</th>
-            <th>Tema</th>
-          </tr>
+          <tr><th>Anno</th><th>Luogo</th><th>Tema</th></tr>
         </thead>
         <tbody>
           <tr><td>2019</td><td>Trpejca, Macedonia</td><td>Jato</td></tr>
@@ -149,15 +174,12 @@
       </table>
     </section>
 
+    <!-- Inserisco Edizioni SESAM -->
     <section id="edizioni-sesam">
       <h2>Edizioni SESAM</h2>
       <table>
         <thead>
-          <tr>
-            <th>Anno</th>
-            <th>Luogo</th>
-            <th>Tema</th>
-          </tr>
+          <tr><th>Anno</th><th>Luogo</th><th>Tema</th></tr>
         </thead>
         <tbody>
           <tr><td>2018</td><td>Chereja/Bila Cerkva, Belarus</td><td>Ex-Nihilo</td></tr>
